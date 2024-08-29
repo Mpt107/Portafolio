@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    
+}
+
+p {
+    color: #d63384; 
+}
+
+.nav-link {
+    color: #d63384;
+}
+
+.nav-link.active {
+    color: #fff;
+    background-color: #d63384; 
+    border-color: #d63384; 
+}
+
+.nav-link:hover {
+    color: #fff; 
+    background-color: #d63384; 
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+
+
+.aside-content {
+    background-color: #d0bee263;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.aside-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aside-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.aside-content a {
+    color: #a868b4;
+    text-decoration: none;
+}
+
+.aside-content a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; 
+}
+
+.card-body {
+    flex: 1;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 150px; /* altura para pantallas pequeñas */
+    }
+}
+
+   
